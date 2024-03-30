@@ -42,3 +42,29 @@ body {
 .buy-button:hover {
     background-color: #ff8c00;
 }
+
+#ramen {
+    text-align: center;
+    padding: 50px 0; /* Adds padding above and below the ramen section */
+}
+
+#ramen img {
+    max-width: 20%; /* Adjust based on your preference */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centers the image */
+}
+
+#ramen h2 {
+    margin-top: 20px;
+    font-size: 2.0em;
+    color: #000;
+}
+
+#ramen p {
+    margin-top: 10px;
+    color: #000;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
