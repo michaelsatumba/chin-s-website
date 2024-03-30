@@ -68,3 +68,69 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+#contact {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+#contact form {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f3f3f3;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    #contact input, #contact textarea {
+        width: 100%; /* Ensure fields take up only the available width */
+        box-sizing: border-box; /* Include padding and border in the element's total width */
+        padding: 8px; /* Slightly reduce padding */
+        margin-bottom: 15px; /* Ensure adequate space between fields */
+    }
+
+    #contact form {
+        padding: 0 15px; /* Add padding to the sides of the form for some breathing room */
+    }
+
+    #contact {
+        padding: 0; /* Reduce vertical padding of the contact section on small screens */
+    }
+}
