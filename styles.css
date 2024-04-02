@@ -2,6 +2,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.main-title {
+    text-align: center; /* Centers the text within the div */
+    margin: 0 auto; /* Centers the div block in its parent element if necessary */
+    padding: 20px 0; /* Adds some vertical padding above and below the title */
+}
 
 #hero {
     text-align: center;
@@ -102,6 +107,16 @@ body {
 
 .submit-button:hover {
     background-color: #45a049;
+}
+
+#affiliate-disclaimer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8; /* Light background for distinction */
+    color: #666; /* Subtle text color */
+    font-size: 0.9rem; /* Smaller font size for the disclaimer text */
+    border-top: 1px solid #ddd; /* Optional border to separate from content */
+    margin-top: 20px; /* Ensure some space above the disclaimer */
 }
 
 footer {
