@@ -1,11 +1,46 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: "Russo One", sans-serif; */
+    /* font-family: "Archivo Black", sans-serif; */
+    /* font-family: "Abril Fatface", serif; */
+    /* font-family: "DM Serif Display", serif; */
+    /* font-family: "Rubik Scribble", system-ui; */
+    font-family: "Roboto", sans-serif;
 }
 
 .main-title {
     text-align: center; /* Centers the text within the div */
     margin: 0 auto; /* Centers the div block in its parent element if necessary */
     padding: 20px 0; /* Adds some vertical padding above and below the title */
+    font-family: "Russo One", sans-serif;
+}
+
+.main-title1 {
+    text-align: center; /* Centers the text within the div */
+    margin: 0 auto; /* Centers the div block in its parent element if necessary */
+    padding: 20px 0; /* Adds some vertical padding above and below the title */
+    font-family: "Archivo Black", sans-serif;
+}
+
+.main-title2 {
+    text-align: center; /* Centers the text within the div */
+    margin: 0 auto; /* Centers the div block in its parent element if necessary */
+    padding: 20px 0; /* Adds some vertical padding above and below the title */
+    font-family: "Abril Fatface", serif;
+}
+
+.main-title3 {
+    text-align: center; /* Centers the text within the div */
+    margin: 0 auto; /* Centers the div block in its parent element if necessary */
+    padding: 20px 0; /* Adds some vertical padding above and below the title */
+    font-family: "DM Serif Display", serif;
+}
+
+.main-title4 {
+    text-align: center; /* Centers the text within the div */
+    margin: 0 auto; /* Centers the div block in its parent element if necessary */
+    padding: 20px 0; /* Adds some vertical padding above and below the title */
+    font-family: "Rubik Scribble", system-ui;
+    font-size: xx-large;
 }
 
 #hero {
